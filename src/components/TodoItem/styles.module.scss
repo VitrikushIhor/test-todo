@@ -1,0 +1,21 @@
+.todoItem{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #181c28;
+	border-radius: 20px;
+	padding: 10px;
+	color: #FCF7F0;
+	margin-bottom: 20px;
+	max-width: 600px;
+
+	&__actions{
+		width: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		svg{
+			cursor: pointer;
+		}
+	}
+}

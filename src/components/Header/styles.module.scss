@@ -1,0 +1,14 @@
+.container{
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	a{
+		color: white;
+		margin-right: 100px;
+		&:hover{
+			text-decoration: underline white;
+		}
+	}
+}

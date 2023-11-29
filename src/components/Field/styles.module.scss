@@ -1,0 +1,9 @@
+.input{
+	margin-left: 20px;
+	background: transparent;
+	border-bottom: 1px solid white;
+	color: white;
+	&::placeholder{
+		color: white;
+	}
+}
